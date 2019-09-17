@@ -1,0 +1,66 @@
+.type-1258 .faq {
+  background: white;
+  padding-bottom: 30px;
+}
+.type-1258 .faq .question {
+  display: table;
+}
+.type-1258 .faq .question .question-logo {
+  display: table-cell;
+  vertical-align: top;
+}
+.type-1258 .faq .question .question-logo span {
+  font-size: 48px !important;
+  height: 48px;
+  line-height: 1em;
+  margin: 0em 20px 0px 0.1em;
+  padding: 0;
+  width: 2ex;
+  font-weight: 400 !important;
+  overflow: visible;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Libre Baskerville';
+  color: #cb7152;
+}
+.type-1258 .faq .question .question-infor {
+  display: table-cell;
+  vertical-align: middle;
+  font: normal 24px/32px Libre Baskerville;
+  word-wrap: break-word;
+}
+.type-1258 .da {
+  text-align: center;
+  padding-top: 0;
+}
+.type-1258 .da img {
+  transform: rotate(180deg);
+  padding-bottom: 0;
+}
+.type-1258 .space {
+  height: 20px;
+}
+.type-1258 .answer .answer-logo {
+  display: table-cell;
+  vertical-align: top;
+}
+.type-1258 .answer .answer-logo span {
+  font-size: 50px !important;
+  height: 48px;
+  line-height: 1em;
+  margin: 0em 26px 0px 0.1em;
+  padding: 0;
+  width: 2ex;
+  font-weight: 400 !important;
+  overflow: visible;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Libre Baskerville';
+  color: #cb7152;
+}
+.type-1258 .answer .answer-infor {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Libre Baskerville';
+  word-wrap: break-word;
+}

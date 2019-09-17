@@ -1,0 +1,38 @@
+.m0-splash-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 99999;
+  display: block;
+}
+.m0-splash-screen .m0-splash-screen-progress-wrapper {
+  position: absolute;
+  bottom: 55%;
+  left: 20%;
+  right: 20%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #EDEDED;
+}
+.m0-splash-screen .m0-splash-screen-progress {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #cb7152;
+  transition: width 1s linear;
+}
+.m0-splash-screen img {
+  margin: auto;
+  display: block;
+}
+.loaded {
+  opacity: 0;
+  transition: all 0.5s 1s ease-out;
+}
+.loaded .m0-splash-screen-progress {
+  width: 100%;
+}
