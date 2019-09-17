@@ -1,13 +1,4 @@
-<html>
-    <head>
-        <title>title</title>
-        
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/property_details.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-       
-    </head>
-    <body>
+
         <section class="section">
             <div class=" col-md-12">
                 <!--Tabs Section-->
@@ -128,5 +119,3 @@
             </div>
             <div class="clearfix"></div>
         </section>
-    </body>
-</html>
