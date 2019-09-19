@@ -1,6 +1,5 @@
 
 <?php
-include '../config.php';
 if (empty($url_path)) {
     $url_host = $_SERVER['HTTP_HOST'];
 
@@ -23,7 +22,7 @@ if (empty($url_path)) {
                     <span>Q</span>
                 </div>
                 <div class="question-infor">
-                    Gordon có sẵn sàng tham dự hoặc nói chuyện tại sự kiện của chúng tôi không?
+                    Would Gordon like to become a patron od our charity?
 
                 </div>
             </div>
@@ -33,12 +32,9 @@ if (empty($url_path)) {
                     <span>A</span>
                 </div>
                 <div class="answer-infor">
-                    Như chúng tôi chắc chắn bạn có thể hiểu, nhật ký của Gordon rất bận rộn và thường được đặt trước rất xa. Do đó, anh ta không thể tham dự hoặc nói chuyện ở tất cả các sự kiện mà anh được mời đến.
+                As we certainly can understand, Gordon's diary is very busy and is often placed very far ahead. Therefore, he cannot attend or speak at all the events to which he is invited.
                 </div>
             </div>
-        </div>
-        <div class="da">
-               <img src="images/hinh.png" alt="hinh">
         </div>
     </div>
 </div>

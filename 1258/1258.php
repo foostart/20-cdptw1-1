@@ -1,6 +1,6 @@
 
 <?php
-include '../config.php';
+//include '../config.php';
 if (empty($url_path)) {
     $url_host = 'http://' . $_SERVER['HTTP_HOST'];
     $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
