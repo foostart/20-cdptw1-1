@@ -35,6 +35,11 @@ if (empty($url_path)) {
                 As we certainly can understand, Gordon's diary is very busy and is often placed very far ahead. Therefore, he cannot attend or speak at all the events to which he is invited.
                 </div>
             </div>
+            <div class="img-center">
+                <img class="img-v" src="./images/ornament-bottom.png" alt="">
+            </div> 
         </div>
+        
+        
     </div>
 </div>
