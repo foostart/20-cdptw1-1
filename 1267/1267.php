@@ -20,6 +20,7 @@ $less->compileFile('less/1267.less', 'css/1267.css');
         <title>1267</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1267.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
@@ -27,6 +28,7 @@ $less->compileFile('less/1267.less', 'css/1267.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/datepicker.min.js" ></script>
+        <link rel="stylesheet" href="./css/swiper.min.css">
         
      
     </head> 
