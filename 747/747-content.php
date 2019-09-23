@@ -1,5 +1,6 @@
-
-        <section class="section">
+<div class="type-747">
+    <div class="container">
+         <section class="section">
             <div class=" col-md-12">
                 <!--Tabs Section-->
                 <section class="property-details" style="background-image:url('images/image-21.jpg');">
@@ -119,3 +120,6 @@
             </div>
             <div class="clearfix"></div>
         </section>
+    </div>
+</div>
+       
