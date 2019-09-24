@@ -7,7 +7,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-25">
+<div class="type-1267">
 
     <div class="top">
         <!-- Swiper -->
