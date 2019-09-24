@@ -29,6 +29,8 @@ $less->compileFile('less/1267.less', 'css/1267.css');
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/datepicker.min.js" ></script>
         <link rel="stylesheet" href="./css/swiper.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
         
      
     </head> 
