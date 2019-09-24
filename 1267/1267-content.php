@@ -10,49 +10,45 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-25">
 
     <div class="top">
-         <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-          <img src="./images/photo-coffee-6.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-          
-      </div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
-      <div class="swiper-slide">Slide 10</div>
-    </div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/photo-coffee-6.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/coffe-house.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/ok.jpg" alt="">
+                </div>
+                
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
 
-  <!-- Swiper JS -->
-  <script src="../package/js/swiper.min.js"></script>
+        <!-- Swiper JS -->
+        <script src="./js/swiper.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      cssMode: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination'
-      },
-      mousewheel: true,
-      keyboard: true,
-    });
-  </script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                cssMode: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: {
+                    el: '.swiper-pagination'
+                },
+                mousewheel: true,
+                keyboard: true,
+            });
+        </script>
 
     </div>
     <div class="container">
@@ -81,10 +77,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="contact-form-inner">
                             <ul class="list-inline text-center tabNav" role="tablist">
                                 <li role="presentation" class="active">
-                                    <a href="#book"  role="tab" data-toggle="tab">Book</a>
+                                    <a href="#book" role="tab" data-toggle="tab">Book</a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="#write"  role="tab" data-toggle="tab">Write</a>
+                                    <a href="#write" role="tab" data-toggle="tab">Write</a>
                                 </li>
                             </ul>
 
@@ -106,7 +102,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
                                                 <div class="field time">
                                                     <!-- add class error show error -->
-                                                    <label >Time</label>
+                                                    <label>Time</label>
                                                     <select>
                                                         <option>1:00am</option>
                                                         <option>2:00am</option>
@@ -137,18 +133,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
 
                                                 <div class="field size">
-                                                    <label >Party size</label>
+                                                    <label>Party size</label>
                                                     <input type="text" value="1" />
                                                     <div class="error-mes">This is a required field.</div>
                                                 </div>
                                             </div>
                                             <div class="field">
-                                                <label >Your name </label>
+                                                <label>Your name </label>
                                                 <input type="text" placeholder="Your Name" />
                                                 <div class="error-mes">This is a required field.</div>
                                             </div>
                                             <div class="field">
-                                                <label >EMAIL ADDRESS </label>
+                                                <label>EMAIL ADDRESS </label>
                                                 <input type="text" placeholder="Email Address" />
                                                 <div class="error-mes">This is a required field.</div>
                                             </div>
@@ -177,17 +173,17 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
                                                 <div class="field required col-sm-4">
                                                     <!-- add class error show error -->
-                                                    <label >Email</label>
-                                                    <input type="email"  />
+                                                    <label>Email</label>
+                                                    <input type="email" />
                                                     <div class="error-mes error-mes1">This is a required field.</div>
                                                 </div>
                                                 <div class="field col-sm-4">
-                                                    <label >Phone</label>
+                                                    <label>Phone</label>
                                                     <input type="tel" />
                                                 </div>
                                             </div>
                                             <div class="field required">
-                                                <label >Message </label>
+                                                <label>Message </label>
                                                 <textarea></textarea>
                                                 <div class="error-mes error-mes1">This is a required field.</div>
                                             </div>
@@ -223,17 +219,17 @@ $url_path = str_replace('\\', '/', $url_path);
             <div id='gmap_canvas'></div>
 
         </div>
-       
+
         <a href='http://maps-generator.com/'>add google map</a>
-        <script  src='https://embedmaps.com/google-maps-authorization/script.js?id=87f441691c59e42c1f8984d69e623db8714cf424'></script>
-        <script src="<?php echo $url_path ?>/js/jsmap.js" ></script>
+        <script src='https://embedmaps.com/google-maps-authorization/script.js?id=87f441691c59e42c1f8984d69e623db8714cf424'></script>
+        <script src="<?php echo $url_path ?>/js/jsmap.js"></script>
 
 
     </div>
-   
+
 
 
 </div>
 <!-- end map -->
 
-<!-- end type-15 --> 
+<!-- end type-15 -->
