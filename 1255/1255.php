@@ -1,4 +1,3 @@
-
 <?php
 if (empty($url_path)) {
     $url_host = 'http://' . $_SERVER['HTTP_HOST'];
@@ -17,15 +16,37 @@ $less->compileFile('less/1255.less', 'css/1255.css');
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>1255</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1255.css" rel="stylesheet" type="text/css"/>
 
-    </head> 
-    <body> 
-        <?php include '../1255/1255-content.php'; ?>
-    </body>
+<head>
+    <title>1255</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/1255.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('a.login-window').click(function () {
+                var loginBox = $(this).attr('href');
+                $(loginBox).fadeIn("slow");
+                $('body').append('<div id="over"></div>');
+                $('#over').fadeIn(300);
+
+                return false;
+            });
+            $(document).on('click', "a.close, #over", function () {
+                $('#over, .login').fadeOut(300, function () {
+                    $('#over').remove();
+                });
+                return false;
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <?php include './1255-content.php'; ?>
+</body>
+
 </html>

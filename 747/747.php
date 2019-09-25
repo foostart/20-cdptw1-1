@@ -10,15 +10,17 @@
     $less->compileFile('less/747.less', 'css/747.css');
  ?>
 <html>
-    <head>
-        <title>747</title>
-        
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/747.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-       
-    </head>
-    <body>
-        <?php include '../747/747-content.php'; ?>
-    </body>
+
+<head>
+    <title>747</title>
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/747.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <?php include './747-content.php'; ?>
+</body>
+
 </html>

@@ -23,7 +23,71 @@
 .Module-1255 .text .name {
   margin-bottom: 30px;
 }
-.Module-1255 .hvr-sweep-to-top {
+.Module-1255 #over {
+  display: none;
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 999;
+}
+.Module-1255 .login {
+  background-color: #cb7152;
+  height: auto;
+  width: 450px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-bottom: 5px;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  z-index: 99999;
+  top: 10%;
+  left: 50%;
+  margin-left: -300px;
+}
+.Module-1255 .login .login_title {
+  color: white;
+  font-size: 16px;
+  padding: 8px 0 5px 8px;
+  text-align: left;
+}
+.Module-1255 .login input {
+  border: 1px solid #D5D5D5;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.07) inset;
+  color: black;
+  font: 12px/25px "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 28px;
+  padding: 0px 8px;
+  word-spacing: 0.1em;
+  width: 300px;
+}
+.Module-1255 .login-content {
+  padding-left: 35px;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: auto;
+  padding-top: 15px;
+  overflow: hidden;
+}
+.Module-1255 .login-content label {
+  display: block;
+  padding-bottom: 7px;
+}
+.Module-1255 .login-content span {
+  display: block;
+}
+.Module-1255 .img-close {
+  float: right;
+  margin-top: -43px;
+  margin-right: 5px;
+}
+.Module-1255 .button {
   font-size: 0.9em;
   border: 1px solid #cb7152;
   background: none;
@@ -34,9 +98,20 @@
   transition-duration: 0.9s;
   color: #cb7152;
 }
-.Module-1255 .hvr-sweep-to-top:hover {
+.Module-1255 .button:hover {
   background-color: #89b649;
   color: white;
+  border: 1px solid #DCDCDC;
+  text-decoration: none;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+.Module-1255 .submit-button {
+  display: inline-block;
+  padding: auto;
+  margin: 15px 75px;
+  width: 150px;
 }
 @media screen and (max-width: 480px) {
   .Module-1255 .text .title h3 {
