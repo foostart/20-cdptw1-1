@@ -1,4 +1,3 @@
-
 <?php
 if (empty($url_path)) {
     $url_host = $_SERVER['HTTP_HOST'];
@@ -32,14 +31,15 @@ if (empty($url_path)) {
                     <span>A</span>
                 </div>
                 <div class="answer-infor">
-                As we certainly can understand, Gordon's diary is very busy and is often placed very far ahead. Therefore, he cannot attend or speak at all the events to which he is invited.
+                    As we certainly can understand, Gordon's diary is very busy and is often placed very far ahead.
+                    Therefore, he cannot attend or speak at all the events to which he is invited.
                 </div>
             </div>
             <div class="img-center">
                 <img class="img-v" src="./images/ornament-bottom.png" alt="">
-            </div> 
+            </div>
         </div>
-        
-        
+
+
     </div>
 </div>

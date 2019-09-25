@@ -1,4 +1,3 @@
-
 <?php
 //include '../config.php';
 if (empty($url_path)) {
@@ -19,17 +18,20 @@ $less->compileFile('less/1258.less', 'css/1258.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Module 1258</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1258.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/css.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
-        <?php
+
+<head>
+    <meta charset="UTF-8">
+    <title>Module 1258</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/1258.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <?php
         include './1258-content.php';
         ?>
-    </body> 
+</body>
+
 </html>

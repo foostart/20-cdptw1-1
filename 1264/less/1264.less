@@ -1,4 +1,4 @@
-@color:  #fff;
+@color:  white;
 @font :normal;
 .type-1264{
     .parallax-bg-wrapper
@@ -6,15 +6,15 @@
             flex-direction: column;
             display: inline-block;
             position: relative;
+            display: none;
     .image-size
     {
        width: 100%;
         height: 400px;
-        transform: scale(1.7);
     }
     .top
     {position: absolute;
-     top: 60%;
+     top: 40%;
     left: 33%;
     text-align: center;
     color: @color;
@@ -24,7 +24,39 @@
     }
     
     }
+
+    .dot {
+        cursor:pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: aqua;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
    
+    .active, .dot:hover {
+        background-color: #717171;
+      }
+
+
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-name: fade;
+        animation-duration: 3s;
+      }
+
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
 }
 
 

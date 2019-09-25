@@ -19,16 +19,13 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-slide">
                     <img src="./images/coffe-house.jpg" alt="">
                 </div>
-                <div class="swiper-slide">
-                    <img src="./images/ok.jpg" alt="">
-                </div>
-                
+
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
             <!-- Add Arrows -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
         </div>
 
         <!-- Swiper JS -->
@@ -37,26 +34,25 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- Initialize Swiper -->
         <script>
             var swiper = new Swiper('.swiper-container', {
-                cssMode: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 },
-                pagination: {
-                    el: '.swiper-pagination'
-                },
-                mousewheel: true,
-                keyboard: true,
             });
         </script>
-
     </div>
     <div class="container">
         <div class="contact">
             <div class="row">
                 <div class="wrapper">
                     <div class="col-sm-3 text-center contact-col con-col">
-                        <span class="icon shortcode theme"></span>
+                        <span class="icon shortcode theme">
+                            <i class="fas fa-hamburger"></i>
+                        </span>
                         <h3 class="title">Contact</h3>
                         <h5 class="phone">+359 562 958</h5>
                         <p>
@@ -200,7 +196,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         <!-- end contact-form-inner -->
                     </div>
                     <div class="col-sm-3 text-center contact-col time-col">
-                        <span class="icon shortcode theme"></span>
+                        <span class="icon shortcode theme">
+                            <i class="fas fa-utensils"></i>
+                        </span>
                         <h3 class="title">Time</h3>
                         <h5>Weekdays</h5>
                         <p>07:00am – 11:00pm</p>
@@ -214,14 +212,16 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     <!-- end contact -->
     <div class="wrap-map">
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDwaeroZWoFDb7a6nXtexnqA-mwgBqoeYM'></script>
+        <script
+            src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDwaeroZWoFDb7a6nXtexnqA-mwgBqoeYM'></script>
         <div class="app">
             <div id='gmap_canvas'></div>
 
         </div>
 
         <a href='http://maps-generator.com/'>add google map</a>
-        <script src='https://embedmaps.com/google-maps-authorization/script.js?id=87f441691c59e42c1f8984d69e623db8714cf424'></script>
+        <script
+            src='https://embedmaps.com/google-maps-authorization/script.js?id=87f441691c59e42c1f8984d69e623db8714cf424'></script>
         <script src="<?php echo $url_path ?>/js/jsmap.js"></script>
 
 

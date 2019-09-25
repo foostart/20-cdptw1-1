@@ -30,5 +30,32 @@ $less->compileFile('less/1264.less', 'css/1264.css');
     <body>
         <?php include './1264-content.php'; ?>
     </body>
+    <script>
+      var slideIndex;
+      function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("parallax-bg-wrapper");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
 
+          slides[slideIndex].style.display = "block";  
+          dots[slideIndex].className += " active";
+          slideIndex++;
+          if (slideIndex > slides.length - 1) {
+            slideIndex = 0
+          }    
+          setTimeout(showSlides, 2000);
+      }
+      showSlides(slideIndex = 0);
+
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+    </script>
     </html>
