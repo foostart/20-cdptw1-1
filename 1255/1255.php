@@ -23,26 +23,8 @@ $less->compileFile('less/1255.less', 'css/1255.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/1255.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('a.login-window').click(function () {
-                var loginBox = $(this).attr('href');
-                $(loginBox).fadeIn("slow");
-                $('body').append('<div id="over"></div>');
-                $('#over').fadeIn(300);
-
-                return false;
-            });
-            $(document).on('click', "a.close, #over", function () {
-                $('#over, .login').fadeOut(300, function () {
-                    $('#over').remove();
-                });
-                return false;
-            });
-
-        });
-    </script>
+    <script src="<?php echo $url_path ?>/js/jquery-3.2.1.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/1255.js"></script>
 </head>
 
 <body>
