@@ -24,7 +24,7 @@ $less->compileFile('less/1264.less', 'css/1264.css');
         <link href="<?php echo $url_path ?>/css/1264.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <script src="<?php echo $url_path ?>/js/1264.js"></script>
+        <link rel="stylesheet" href="./css/swiper.min.css">
 
     </head>
 

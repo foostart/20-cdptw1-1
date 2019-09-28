@@ -12,6 +12,9 @@
   width: 100px;
   height: 100px;
 }
+.Module-1255 .rb-password {
+  text-decoration: none;
+}
 .Module-1255 .text {
   font: normal 20px/25px Libre Baskerville;
   padding: 15px;
@@ -22,6 +25,9 @@
 }
 .Module-1255 .text .name {
   margin-bottom: 30px;
+}
+.Module-1255 .login-window {
+  display: inline-block;
 }
 .Module-1255 #over {
   display: none;
@@ -116,5 +122,16 @@
 @media screen and (max-width: 480px) {
   .Module-1255 .text .title h3 {
     font-size: 19px;
+  }
+  .Module-1255 .login {
+    width: 300px;
+    left: 100%;
+    top: 20%;
+  }
+  .Module-1255 .login input {
+    width: 200px;
+  }
+  .Module-1255 .submit-button {
+    margin: 0.1px 53px;
   }
 }
