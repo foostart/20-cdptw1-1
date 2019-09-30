@@ -8,36 +8,49 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1264">
-    <div class="container">
         <div class="row">
             <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
-                <div class="parallax-bg-wrapper">
-                    <img class="image-size" src="<?php echo $url_path ?>/images/section-bg.jpg">
-                    <div>
-                        <h2 class="top">Breakfast & Brunch</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> 
+                            <div class="text">
+                                Breakfast and Brunch
+                            </div>                                                   
+                            <img src="./images/1264_1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="text">
+                                Breakfast and Brunch
+                            </div> 
+                            <img src="./images/1264_2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="text">
+                                Breakfast and Brunch
+                            </div> 
+                            <img src="./images/1264_3.jpg" alt="">
+                        </div>
 
                     </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-                <div class="parallax-bg-wrapper">
-                    <img class="image-size" src="<?php echo $url_path ?>/images/dinner.jpg">
-                    <div>
-                        <h2 class="top">Dinner & Brunch</h2>
 
-                    </div>
-                </div>
-                <div class="parallax-bg-wrapper">
-                    <img class="image-size" src="<?php echo $url_path ?>/images/lunch.jpg">
-                    <div>
-                        <h2 class="top">Lunch & Brunch</h2>
+                <!-- Swiper JS -->
+                <script src="./js/swiper.min.js"></script>
 
-                    </div>
-                </div>
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+
             </div>
-            <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(0)"></span> 
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-      </div>  
         </div>
-    </div>
+  
 </div>

@@ -60,13 +60,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             <br> Modena MO, Italy
                         </p>
                         <p>
-                            <span class="large-icon"><i class="fa fa-tripadvisor" aria-hidden="true"></i></span>
+                            <span class="large-icon"><i class="fab fa-tripadvisor" aria-hidden="true"></i></span>
                         </p>
                         <p class="icon-group">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
                         </p>
                     </div>
                     <div class="col-sm-6 contact-form">
@@ -165,13 +165,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <!-- add class error show error -->
                                                     <label>Name</label>
                                                     <input type="text" />
-                                                    <div class="error-mes error-mes1">This is a required field.</div>
+                                                    <div class="error-mes">This is a required field.</div>
                                                 </div>
                                                 <div class="field required col-sm-4">
                                                     <!-- add class error show error -->
                                                     <label>Email</label>
                                                     <input type="email" />
-                                                    <div class="error-mes error-mes1">This is a required field.</div>
+                                                    <div class="error-mes ">This is a required field.</div>
                                                 </div>
                                                 <div class="field col-sm-4">
                                                     <label>Phone</label>
@@ -181,7 +181,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="field required">
                                                 <label>Message </label>
                                                 <textarea></textarea>
-                                                <div class="error-mes error-mes1">This is a required field.</div>
+                                                <div class="error-mes ">This is a required field.</div>
                                             </div>
                                             <input class="btn-form" type="button" value="Send" />
                                         </form>
