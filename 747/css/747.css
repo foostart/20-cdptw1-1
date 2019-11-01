@@ -1,0 +1,61 @@
+.type-747 .fifi {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: url('../images/747.png');
+}
+.type-747 .fifi .fefe {
+  position: relative;
+  z-index: 5;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.type-747 .fifi .fefe::before {
+  background: rgba(255,255,255,0.95) none repeat scroll 0 0;
+}
+.type-747 .fifi .fefe:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 0px;
+  width: 1500px;
+  height: 100%;
+  background: rgba(255,255,255,0.95);
+  z-index: 0;
+}
+.type-747 .fifi .fefe .page-header {
+  border: none;
+}
+.type-747 .fifi .fefe .nav-tabs {
+  border: none;
+  text-transform: uppercase;
+}
+.type-747 .fifi .fefe .nav-tabs .active a {
+  background-color: #71b100;
+  border: 1px solid #9a9a9a;
+  margin-right: 0px;
+  border-radius: 0px;
+  color: #ffffff;
+}
+.type-747 .fifi .fefe .nav-tabs li {
+  margin-right: 0px;
+  border-radius: 0px;
+}
+.type-747 .fifi .fefe .nav-tabs li a {
+  margin-right: 0px;
+  border-radius: 0px;
+  color: #000000;
+  border: 1px solid #9a9a9a;
+}
+.type-747 .fifi .fefe .option {
+  color: #71b100;
+  font-size: 0.8em;
+}
+.type-747 .fifi .col1 {
+  background: rgba(255,255,255,0.95) none repeat scroll 0 0;
+  position: relative;
+  padding: 60px 15px;
+}

@@ -1,0 +1,88 @@
+@green-color : #71b100;
+@gray-color : #9a9a9a ;
+@white-color : #ffffff;
+@black-color : #000000;
+@bg-color : rgba(255, 255, 255, 0.95);
+
+.type-747 {
+    
+    .fifi {
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background: url('../images/747.png');
+
+        .fefe {
+            position: relative;
+            z-index: 5;
+            max-width: 1200px;
+            padding: 0px 15px;
+            margin: 0 auto;
+
+            &::before {
+                background: @bg-color none repeat scroll 0 0;
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                right: 100%;
+                top: 0px;
+                width: 1500px;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.95);
+                z-index: 0;
+            }
+
+            .page-header {
+                border: none;
+            }
+
+            .nav-tabs {
+                border: none;
+
+                text-transform: uppercase;
+
+
+                .active {
+
+                    a {
+                        background-color: @green-color ;
+                        border: 1px solid @gray-color;
+                        margin-right: 0px;
+                        border-radius: 0px;
+                        color: @white-color;
+                    }
+
+                }
+
+                li {
+                    margin-right: 0px;
+                    border-radius: 0px;
+
+                    a {
+                        margin-right: 0px;
+                        border-radius: 0px;
+                        color: @black-color;
+                        border: 1px solid @gray-color;
+                    }
+
+                }
+
+            }
+            .option{
+                color: @green-color ;
+		        font-size: 0.8em;
+            }
+        }
+
+        .col1 {
+            background: @bg-color none repeat scroll 0 0;
+            position: relative;
+            padding: 60px 15px;
+        }
+
+    }
+}

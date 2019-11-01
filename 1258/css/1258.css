@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url('../font/font1.woff2') format('woff2');
+  unicode-range: U0100-024F, U0259, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF;
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url('../font/font2.woff2') format('woff2');
+  unicode-range: U0000-00FF, U0131, U0152-0153, U02BB-02BC, U02C 6, U02DA, U02DC, U2000-206F, U2074, U20AC, U2122, U2212, U2215;
+}
+.type-1258 .faq {
+  background: white;
+  padding-bottom: 30px;
+}
+.type-1258 .faq .img-center {
+  background-image: url(../images/tea.jpg);
+}
+.type-1258 .faq .img-center .img-v {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(180deg);
+  margin-top: 50px;
+}
+.type-1258 .faq .question {
+  display: table;
+}
+.type-1258 .faq .question .question-logo {
+  display: table-cell;
+  vertical-align: top;
+}
+.type-1258 .faq .question .question-logo span {
+  font-size: 48px !important;
+  height: 48px;
+  line-height: 1em;
+  margin: 0em 20px 0px 0.1em;
+  padding: 0;
+  width: 2ex;
+  font-weight: 400 !important;
+  overflow: visible;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Libre Baskerville';
+  color: #cb7152;
+}
+.type-1258 .faq .question .question-infor {
+  display: table-cell;
+  vertical-align: middle;
+  font: normal 24px/32px Libre Baskerville;
+  word-wrap: break-word;
+}
+.type-1258 .space {
+  height: 20px;
+}
+.type-1258 .answer .answer-logo {
+  display: table-cell;
+  vertical-align: top;
+}
+.type-1258 .answer .answer-logo span {
+  font-size: 50px !important;
+  height: 48px;
+  line-height: 1em;
+  margin: 0em 26px 0px 0.1em;
+  padding: 0;
+  width: 2ex;
+  font-weight: 400 !important;
+  overflow: visible;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Libre Baskerville';
+  color: #cb7152;
+}
+.type-1258 .answer .answer-infor {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Libre Baskerville';
+  word-wrap: break-word;
+}
